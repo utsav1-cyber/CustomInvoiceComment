@@ -1,0 +1,18 @@
+{
+  "name": "swag/plugin-skeleton",
+  "description": "Skeleton plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+      "psr-4": {
+          "CustomerCommentInvoice\\": "src/"
+      }
+  },
+  "extra": {
+      "shopware-plugin-class": "CustomerCommentInvoice\\CustomerCommentInvoice",
+      "label": {
+          "de-DE": "Customer Comment In Invoice",
+          "en-GB": "Customer Comment In Invoice"
+      }
+  }
+}
